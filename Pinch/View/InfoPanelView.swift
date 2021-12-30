@@ -29,7 +29,7 @@ struct InfoPanelView: View {
                 }
             
             Spacer()
-            // MARK: - INFO PANEL
+            // MARK: - INFO PANEL +
             HStack(spacing: 2) {
                 Image(systemName: "arrow.up.left.and.arrow.down.right")
                 Text("\(scale)")
